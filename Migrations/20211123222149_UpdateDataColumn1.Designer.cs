@@ -9,8 +9,8 @@ using salesProject.Models;
 namespace salesProject.Migrations
 {
     [DbContext(typeof(SaleDbContext))]
-    [Migration("20211123022613_UpdateDbContext")]
-    partial class UpdateDbContext
+    [Migration("20211123222149_UpdateDataColumn1")]
+    partial class UpdateDataColumn1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -77,7 +77,8 @@ namespace salesProject.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
-                        .HasColumnType("longtext");
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("SellerId");
 
