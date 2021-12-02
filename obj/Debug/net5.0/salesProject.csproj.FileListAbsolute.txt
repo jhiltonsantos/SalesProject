@@ -161,3 +161,4 @@
 /home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/obj/Debug/net5.0/Razor/Views/SalesRecord/Details.cshtml.g.cs
 /home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/obj/Debug/net5.0/Razor/Views/SalesRecord/Edit.cshtml.g.cs
 /home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/obj/Debug/net5.0/Razor/Views/SalesRecord/Index.cshtml.g.cs
+/home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/obj/Debug/net5.0/Razor/Views/Seller/TotalSales.cshtml.g.cs

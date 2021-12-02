@@ -15674,6 +15674,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/Views/Seller/TotalSales.cshtml",
+      "TargetPath": "Views\\Seller\\TotalSales.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/hilton/Development/Analise e Desenvolvimento de Sistemas/Analise e Projeto de Sistemas/Projeto/salesProject/Views/Department/Delete.cshtml",
       "TargetPath": "Views\\Department\\Delete.cshtml",
       "FileKind": "mvc"

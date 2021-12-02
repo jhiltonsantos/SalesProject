@@ -155,5 +155,12 @@ namespace salesProject.Controllers
         {
             return _context.Seller.Any(e => e.SellerId == id);
         }
+
+        public async Task<IActionResult> totalSales(DateTime initial, DateTime final, int id) {
+            var sellers = await _context.Seller.FindAsync(id);
+            var sales = await _context.SalesRecord.Where(seller => seller.Seller == sellers).ToListAsync();
+            var periodSales = sales.Where(sale => sale.Date >= initial && sale.Date <= final);
+            return View(periodSales);
+        }
     }
 }
